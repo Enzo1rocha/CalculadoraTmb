@@ -35,12 +35,19 @@ if genero == "homem":
 if genero == "mulher":
   tmb=447.6+(9.2*peso)+(3.1*altura)-(4.3*idade)
 print("Niveis de Atividade Fisica")
+print("{}".format("="*70))
 print("Taxa metabolica: (Caso Queira Saber Somente Quanto Seu Corpo Gasta em Repouso)")
+print("{}".format("-"*70))
 print("Sedentario: (Nao Faço Exercicios Durante a Semana)")
+print("{}".format("-"*70))
 print("Leve: (Treino 1 A 3 Vezes na Semana)")
+print("{}".format("-"*70))
 print("Moderado: (Treino 3 A 5 Vezes na Semana)")
+print("{}".format("-"*70))
 print("Intensa: (Treino 5 A 7 Vezes na Semana)")
+print("{}".format("-"*70))
 print("Muito Intensa: (Trabalho Fisico e Exercicio Muito Intenso 7x na Semana)")
+print("{}".format("="*70))
 while True:
   atividade_fisica=str(input("Qual Seu Nivel de Atividade Fisica?")).strip().lower()
   if atividade_fisica in ["taxa metabolica", "sedentario", "leve", "moderado", "intensa", "muito intensa"]:
